@@ -1,0 +1,231 @@
+
+Cell sky130_fd_pr__pfet_01v8 (1) disconnected node: drain
+Cell sky130_fd_pr__pfet_01v8 (1) disconnected node: gate
+Cell sky130_fd_pr__pfet_01v8 (1) disconnected node: source
+Cell sky130_fd_pr__pfet_01v8 (1) disconnected node: bulk
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Cell sky130_fd_pr__nfet_01v8 (1) disconnected node: drain
+Cell sky130_fd_pr__nfet_01v8 (1) disconnected node: gate
+Cell sky130_fd_pr__nfet_01v8 (1) disconnected node: source
+Cell sky130_fd_pr__nfet_01v8 (1) disconnected node: bulk
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: addf                            |Circuit 2: addf                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (14)               |sky130_fd_pr__pfet_01v8 (14)               
+sky130_fd_pr__nfet_01v8 (14)               |sky130_fd_pr__nfet_01v8 (14)               
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 19                         |Number of nets: 19                         
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: addf                            |Circuit 2: addf                            
+
+---------------------------------------------------------------------------------------
+Net: CON                                   |Net: net_1                                 
+  sky130_fd_pr__pfet_01v8/2 = 2            |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+  sky130_fd_pr__nfet_01v8/2 = 2            |  sky130_fd_pr__pfet_01v8/gate = 2         
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/gate = 2         
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: A                                     |Net: A                                     
+  sky130_fd_pr__pfet_01v8/2 = 4            |  sky130_fd_pr__pfet_01v8/gate = 4         
+  sky130_fd_pr__nfet_01v8/2 = 4            |  sky130_fd_pr__nfet_01v8/gate = 4         
+                                           |                                           
+Net: B                                     |Net: b                                     
+  sky130_fd_pr__pfet_01v8/2 = 4            |  sky130_fd_pr__pfet_01v8/gate = 4         
+  sky130_fd_pr__nfet_01v8/2 = 4            |  sky130_fd_pr__nfet_01v8/gate = 4         
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: a_27_115#                             |Net: net_2                                 
+  sky130_fd_pr__nfet_01v8/(1|3) = 3        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_27_521#                             |Net: net_5                                 
+  sky130_fd_pr__pfet_01v8/(1|3) = 3        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: a_526_521#                            |Net: net_8                                 
+  sky130_fd_pr__pfet_01v8/(1|3) = 4        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_526_115#                            |Net: net_4                                 
+  sky130_fd_pr__nfet_01v8/(1|3) = 4        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: gnd                                   |Net: gnd                                   
+  sky130_fd_pr__nfet_01v8/(1|3) = 9        |  sky130_fd_pr__nfet_01v8/bulk = 14        
+  sky130_fd_pr__nfet_01v8/4 = 14           |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: vdd                                   |Net: vdd                                   
+  sky130_fd_pr__pfet_01v8/4 = 14           |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+  sky130_fd_pr__pfet_01v8/(1|3) = 9        |  sky130_fd_pr__pfet_01v8/bulk = 14        
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: a_784_115#                            |Net: net_3                                 
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/gate = 1         
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/gate = 1         
+                                           |                                           
+Net: CI                                    |Net: c                                     
+  sky130_fd_pr__pfet_01v8/2 = 3            |  sky130_fd_pr__pfet_01v8/gate = 3         
+  sky130_fd_pr__nfet_01v8/2 = 3            |  sky130_fd_pr__nfet_01v8/gate = 3         
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: a_368_115#                            |Net: cout                                  
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+                                           |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: CO                                    |Net: sum                                   
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_368_521#                            |Net: net_9                                 
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_870_115#                            |Net: net_7                                 
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_952_115#                            |Net: net_10                                
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |  sky130_fd_pr__nfet_01v8/(drain|source) = 
+                                           |                                           
+Net: S                                     |Net: net_12                                
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |                                           
+                                           |                                           
+Net: a_870_521#                            |Net: net_6                                 
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+                                           |                                           
+Net: a_952_521#                            |Net: net_11                                
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |  sky130_fd_pr__pfet_01v8/(drain|source) = 
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: addf                            |Circuit 2: addf                            
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_01v8:26       |Instance: sky130_fd_pr__nfet_01v8:_28      
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:19       |Instance: sky130_fd_pr__nfet_01v8:_20      
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:17       |Instance: sky130_fd_pr__nfet_01v8:_15      
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:24       |Instance: sky130_fd_pr__nfet_01v8:_27      
+  (1,3) = (8,2)                            |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:20       |Instance: sky130_fd_pr__nfet_01v8:_22      
+  (1,3) = (6,2)                            |  (drain,source) = (8,3)                   
+  2 = 8                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:15       |Instance: sky130_fd_pr__nfet_01v8:_21      
+  (1,3) = (8,3)                            |  (drain,source) = (8,2)                   
+  2 = 6                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:10       |Instance: sky130_fd_pr__nfet_01v8:_19      
+  (1,3) = (6,4)                            |  (drain,source) = (6,4)                   
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:5        |Instance: sky130_fd_pr__nfet_01v8:_16      
+  (1,3) = (23,2)                           |  (drain,source) = (23,4)                  
+  2 = 6                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:4        |Instance: sky130_fd_pr__nfet_01v8:_14      
+  (1,3) = (2,2)                            |  (drain,source) = (2,2)                   
+  2 = 6                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__nfet_01v8:2        |Instance: sky130_fd_pr__nfet_01v8:_13      
+  (1,3) = (23,4)                           |  (drain,source) = (6,2)                   
+  2 = 6                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_01v8:27       |Instance: sky130_fd_pr__pfet_01v8:_26      
+  (1,3) = (23,4)                           |  (drain,source) = (23,2)                  
+  2 = 6                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:23       |Instance: sky130_fd_pr__pfet_01v8:_10      
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:14       |Instance: sky130_fd_pr__pfet_01v8:_4       
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:12       |Instance: sky130_fd_pr__pfet_01v8:_25      
+  (1,3) = (23,2)                           |  (drain,source) = (23,2)                  
+  2 = 8                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:21       |Instance: sky130_fd_pr__pfet_01v8:_12      
+  (1,3) = (8,2)                            |  (drain,source) = (6,2)                   
+  2 = 8                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:16       |Instance: sky130_fd_pr__pfet_01v8:_11      
+  (1,3) = (6,2)                            |  (drain,source) = (2,2)                   
+  2 = 8                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:11       |Instance: sky130_fd_pr__pfet_01v8:_9       
+  (1,3) = (8,3)                            |  (drain,source) = (6,4)                   
+  2 = 6                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:7        |Instance: sky130_fd_pr__pfet_01v8:_8       
+  (1,3) = (6,4)                            |  (drain,source) = (23,4)                  
+  2 = 8                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:1        |Instance: sky130_fd_pr__pfet_01v8:_5       
+  (1,3) = (23,2)                           |  (drain,source) = (8,2)                   
+  2 = 6                                    |  gate = 8                                 
+  4 = 23                                   |  bulk = 23                                
+                                           |                                           
+Instance: sky130_fd_pr__pfet_01v8:0        |Instance: sky130_fd_pr__pfet_01v8:_3       
+  (1,3) = (2,2)                            |  (drain,source) = (8,3)                   
+  2 = 6                                    |  gate = 6                                 
+  4 = 23                                   |  bulk = 23                                
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: addf                            |Circuit 2: addf                            
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+CO                                         |sum **Mismatch**                           
+S                                          |(no matching pin)                          
+(no matching pin)                          |b                                          
+(no matching pin)                          |c                                          
+(no matching pin)                          |cout                                       
+S                                          |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for addf and addf altered to match.
+Device classes addf and addf are equivalent.
+
+Final result: Top level cell failed pin matching.

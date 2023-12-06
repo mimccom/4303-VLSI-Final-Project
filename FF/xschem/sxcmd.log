@@ -1,0 +1,56 @@
+### Custom WaveView ADV log file, revision R-2020.12-SP1 (build Apr 08, ) ###
+### created at 21:13:25 on Tue Oct 24 2023 (Linux AMD64) ###
+### Host Name: bree.ecen.okstate.edu   User ID: mimccom   PID: 68260   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 557 315
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_tool_button {Custom WaveView} {} {LoadSession0} 
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {FileFilter} "Waveform Files:*" 1
+wv_select_list_item {FileDialog} {} {FileList} {sim} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {sim} 2
+wv_select_list_item {FileDialog} {} {FileList} {..} 1
+wv_dclick_list_item {FileDialog} {} {FileList} {..} 1
+wv_select_list_item {FileDialog} {} {FileList} {.} 0
+wv_dclick_list_item {FileDialog} {} {FileList} {.} 0
+wv_select_list_item {FileDialog} {} {FileList} {..} 1
+wv_dclick_list_item {FileDialog} {} {FileList} {..} 1
+wv_select_list_item {FileDialog} {} {FileList} {xchiplogo} 8
+wv_dclick_list_item {FileDialog} {} {FileList} {xchiplogo} 8
+wv_select_list_item {FileDialog} {} {FileList} {..} 1
+wv_dclick_list_item {FileDialog} {} {FileList} {..} 1
+wv_close_dialog {FileDialog} 
+wv_select_window {Custom WaveView} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {Custom WaveView} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Tools}
+wv_press_tool_button {Custom WaveView} {} {WaveformCompare} 
+wv_select_dialog {WaveformCompare} 
+wv_resize_window {WaveformCompare} 886 719
+wv_close_dialog {WaveformCompare} 
+wv_select_window {Custom WaveView} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {Custom WaveView} {} {Exit0} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/mimccom/.cx_hostport/.cx_hostport_bree.ecen.okstate.edu_68260'.

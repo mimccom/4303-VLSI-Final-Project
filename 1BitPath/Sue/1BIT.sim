@@ -1,0 +1,152 @@
+| units: 0.5  tech: sky130A  format: MIT
+A CLOCK input
+A Clk input
+A D input
+A EN input
+A IN input
+A a input
+A b input
+A c input
+A !Clk output
+A Q output
+A cout output
+| device pmos 1200 160
+p Clk vdd !Clk 30.0 252.0
+| device nmos 1200 270
+n Clk gnd !Clk 30.0 104.0
+| device pmos_1 550 480
+p net_2 net_26 vdd 30.0 252.0
+| device pmos_2 550 560
+p !Clk net_11 net_26 30.0 252.0
+| device nmos_1 550 670
+n Clk net_11 net_5 30.0 104.0
+| device nmos_2 550 750
+n net_2 net_5 gnd 30.0 104.0
+| device pmos_3 1230 560
+p Q net_23 vdd 30.0 252.0
+| device pmos_4 1230 640
+p Clk net_6 net_23 30.0 252.0
+| device nmos_3 1230 750
+n !Clk net_6 net_31 30.0 104.0
+| device nmos_4 1230 830
+n Q net_31 gnd 30.0 104.0
+| device pmos_5 1050 650
+p !Clk net_17 net_6 30.0 252.0
+| device pmos_6 1050 560
+p net_2 vdd net_17 30.0 252.0
+| device nmos_5 1050 850
+n net_2 gnd net_25 30.0 104.0
+| device nmos_6 1050 770
+n Clk net_25 net_6 30.0 104.0
+| device pmos_7 780 780
+p net_11 vdd net_2 30.0 252.0
+| device nmos_7 780 890
+n net_11 gnd net_2 30.0 104.0
+| device pmos_8 1550 670
+p net_6 vdd Q 30.0 252.0
+| device nmos_8 1550 780
+n net_6 gnd Q 30.0 104.0
+| device pmos_9 380 570
+p D vdd net_10 30.0 252.0
+| device pmos_10 380 650
+p Clk net_10 net_11 30.0 252.0
+| device nmos_9 380 760
+n !Clk net_18 net_11 30.0 104.0
+| device nmos_10 380 840
+n D gnd net_18 30.0 104.0
+| device pmos_11 680 140
+p CLOCK vdd net_3 30.0 252.0
+| device pmos_12 850 140
+p EN vdd net_3 30.0 252.0
+| device nmos_11 760 260
+n EN net_29 net_3 30.0 104.0
+| device nmos_12 760 340
+n CLOCK gnd net_29 30.0 104.0
+| device pmos_13 1000 160
+p net_3 vdd Clk 30.0 252.0
+| device nmos_13 1000 270
+n net_3 gnd Clk 30.0 104.0
+| device pmos_14 -60 -260
+p EN vdd net_7 30.0 252.0
+| device pmos_15 150 -260
+p IN vdd net_7 30.0 252.0
+| device nmos_14 20 -130
+n EN net_30 net_7 30.0 104.0
+| device nmos_15 20 -20
+n IN gnd net_30 30.0 104.0
+| device pmos_16 -50 240
+p net_15 vdd net_9 30.0 252.0
+| device pmos_17 160 240
+p Q vdd net_9 30.0 252.0
+| device nmos_16 30 370
+n net_15 net_20 net_9 30.0 104.0
+| device nmos_17 30 480
+n Q gnd net_20 30.0 104.0
+| device pmos_18 280 -140
+p net_7 vdd D 30.0 252.0
+| device pmos_19 400 -140
+p net_9 vdd D 30.0 252.0
+| device nmos_18 280 20
+n net_7 net_28 D 30.0 104.0
+| device nmos_19 280 130
+n net_9 gnd net_28 30.0 104.0
+| device pmos_20 -260 230
+p EN vdd net_15 30.0 252.0
+| device nmos_20 -260 360
+n EN gnd net_15 30.0 104.0
+| device pmos_21 550 -570
+p a vdd net_4 30.0 252.0
+| device pmos_22 740 -570
+p b vdd net_4 30.0 252.0
+| device pmos_23 640 -470
+p c net_4 net_12 30.0 252.0
+| device pmos_24 870 -550
+p a vdd net_24 30.0 252.0
+| device pmos_25 870 -440
+p b net_24 net_12 30.0 252.0
+| device pmos_26 1050 -540
+p a vdd net_8 30.0 252.0
+| device pmos_27 1200 -540
+p b vdd net_8 30.0 252.0
+| device pmos_28 1340 -540
+p c vdd net_8 30.0 252.0
+| device pmos_29 1200 -410
+p net_12 net_8 net_14 30.0 252.0
+| device pmos_30 1500 -600
+p a vdd net_27 30.0 252.0
+| device pmos_31 1500 -500
+p b net_27 net_22 30.0 252.0
+| device pmos_32 1500 -400
+p c net_22 net_14 30.0 252.0
+| device nmos_21 1500 -290
+n c net_16 net_14 30.0 104.0
+| device nmos_22 1500 -200
+n b net_19 net_16 30.0 104.0
+| device nmos_23 1500 -110
+n a gnd net_19 30.0 104.0
+| device nmos_24 1350 -190
+n c gnd net_1 30.0 104.0
+| device nmos_25 1200 -200
+n b gnd net_1 30.0 104.0
+| device nmos_26 1040 -200
+n a gnd net_1 30.0 104.0
+| device nmos_27 1200 -280
+n net_12 net_1 net_14 30.0 104.0
+| device nmos_28 870 -160
+n a gnd net_13 30.0 104.0
+| device nmos_29 870 -280
+n b net_13 net_12 30.0 104.0
+| device nmos_30 640 -320
+n c net_21 net_12 30.0 104.0
+| device nmos_31 730 -190
+n b gnd net_21 30.0 104.0
+| device nmos_32 590 -190
+n a gnd net_21 30.0 104.0
+| device pmos_33 1670 -580
+p net_14 vdd IN 30.0 252.0
+| device pmos_34 1670 -260
+p net_12 vdd cout 30.0 252.0
+| device nmos_33 1670 -450
+n net_14 gnd IN 30.0 104.0
+| device nmos_34 1670 -140
+n net_12 gnd cout 30.0 104.0

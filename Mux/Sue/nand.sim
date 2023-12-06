@@ -1,0 +1,12 @@
+| units: 0.5  tech: sky130A  format: MIT
+A a input
+A b input
+A out output
+| device pmos 570 310
+p a vdd out 30.0 252.0
+| device pmos_1 780 310
+p b vdd out 30.0 252.0
+| device nmos 650 440
+n a net_1 out 30.0 104.0
+| device nmos_1 650 550
+n b gnd net_1 30.0 104.0
