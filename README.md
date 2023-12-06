@@ -1,5 +1,7 @@
 # 4303-VLSI-Final-Project
-
+<p align="center">
+<img src="/img/ff_en_x.PNG" alt="Alt text" title="Optional title" width=450px height=450px left:margin=auto right:margin=auto>
+</p>
 
 ### Introduction
 
