@@ -12,13 +12,16 @@ This is my introduction
 These are the tools used
 
 Micro Magic's Sue, for schematic layout. </br >
-http://www.micromagic.com/SUE.html </br >
+> http://www.micromagic.com/SUE.html </br >
 
 Open Circuit Design's IRSIM, for logic verification. </br >
-http://opencircuitdesign.com/irsim/ </br >
+> http://opencircuitdesign.com/irsim/ </br >
 
 Open Circuit Design's Magic VLSI, for layout. </br >
-http://opencircuitdesign.com/magic/ </br >
+> http://opencircuitdesign.com/magic/ </br >
+
+Xschem, for schematic layout and LVS. </br >
+> https://xschem.sourceforge.io/stefan/index.html </br >
 
 ### Schematics
 
