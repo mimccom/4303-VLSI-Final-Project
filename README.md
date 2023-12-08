@@ -23,3 +23,18 @@ Xschem, for schematic layout and LVS. </br >
 ### Schematics
 
 These are the designs for each component
+#Adder
+<table>
+  <tr>
+    <td><img src="/img/1Bitpath.PNG" alt="Image 1"></td>
+    <td><img src="/img/1Bitpath.PNG" alt="Image 2"></td>
+  </tr>
+  <tr>
+    <td><img src="/img/1Bitpath.PNG" alt="Image 3"></td>
+    <td><img src="/img/1Bitpath.PNG" alt="Image 4"></td>
+  </tr>
+</table>
+
+
+
+
