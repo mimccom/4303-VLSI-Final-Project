@@ -51,8 +51,8 @@ These are the designs for each component
 #### Multiplexer
 <table>
   <tr>
-    <td><img src="/img/mux.PNG" alt="Image 1"></td>
-    <td><img src="/" alt="Image 2"></td>
+    <td><img src="/img/mux_design.PNG" alt="Image 1"></td>
+    <td><img src="/mux_sim.PNG" alt="Image 2"></td>
   </tr>
   <tr>
     <td><img src="/img/mux_stick.png" alt="Image 3"></td>
