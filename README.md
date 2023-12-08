@@ -27,36 +27,36 @@ These are the designs for each component
 #### Adder
 <table>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 1"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 2"></td>
+    <td><img src="/img/adder.PNG" alt="Image 1"></td>
+    <td><img src="/img/adder_x.PNG" alt="Image 2"></td>
   </tr>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 3"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 4"></td>
+    <td><img src="/img/adder layout.PNG" alt="Image 3"></td>
+    <td><img src="/img/fulladder_stick.png" alt="Image 4"></td>
   </tr>
 </table>
 
 #### D Flip Flop
 <table>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 1"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 2"></td>
+    <td><img src="/img/dff schm.PNG" alt="Image 1"></td>
+    <td><img src="/img/FF_EN.PNG" alt="Image 2"></td>
   </tr>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 3"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 4"></td
+    <td><img src="/img/dff layout.PNG" alt="Image 3"></td>
+    <td><img src="/img/dff_stick.PNG" alt="Image 4"></td
   </tr>
 </table>
 
 #### Multiplexer
 <table>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 1"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 2"></td>
+    <td><img src="/img/mux.PNG" alt="Image 1"></td>
+    <td><img src="/" alt="Image 2"></td>
   </tr>
   <tr>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 3"></td>
-    <td><img src="/img/1Bitpath.PNG" alt="Image 4"></td>
+    <td><img src="/img/mux_stick.png" alt="Image 3"></td>
+    <td><img src="/" alt="Image 4"></td>
   </tr>
 </table>
 
