@@ -4,8 +4,7 @@
 </p>
 
 ### Introduction
-
-This is my introduction
+In this project, we employ the bit slice technique to craft a custom data path, involving an 8-bit adder and register. The objectives for success encompass the development of a transistor-level schematic for logic simulation, an xschem schematic for Spice and LVS verification, and the intricate layout design of the custom data path using magic vlsi.
 
 ### Tools 
 
