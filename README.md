@@ -27,7 +27,7 @@ These are the designs for each component
 #### Adder
 <table>
   <tr>
-    <td><img src="/img/adder.PNG" alt="Image 1"></td>
+    <td><img src="/img/Adder.PNG" alt="Image 1"></td>
     <td><img src="/img/adder_x.PNG" alt="Image 2"></td>
   </tr>
   <tr>
