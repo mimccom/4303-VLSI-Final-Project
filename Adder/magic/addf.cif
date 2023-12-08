@@ -1,5 +1,5 @@
 ( @@user : mimccom );
-( @@machine : bree.ecen.okstate.edu );
+( @@machine : angmar.ecen.okstate.edu );
 ( @@source : addf );
 ( @@tool : Magic 8.3.427 );
 ( @@compiled : Wed Sep  6 08:16:59 CDT 2023 );
@@ -7,7 +7,7 @@
 ( @@version : 1.0.440-0-g43e733e );
 ( @@techdesc : SkyWater SKY130: Open Source rules and DRC );
 ( @@style : gdsii );
-( @@date : Sat Nov 11 17:39:23 2023 );
+( @@date : Fri Dec  8 16:03:53 2023 );
 DS 1 1 20;
 9 addf;
 L NWELL;
@@ -345,6 +345,8 @@ L MET1;
 94 CON 12280 2740 MET1TXT;
 94 gnd 680 480 MET1TXT;
 94 vdd 680 8400 MET1TXT;
+94 vdd 2050 8490 WELLTXT;
+94 gnd 2050 390 MET1TXT;
 DF;
 C 1;
 End
