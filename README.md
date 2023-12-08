@@ -56,7 +56,7 @@ These are the designs for each component
   </tr>
   <tr>
     <td><img src="/img/mux_stick.png" alt="Image 3"></td>
-    <td><img src="/img/mux_design.PNG" alt="Image 4></td>
+    <td><img src="/img/mux_design.PNG" alt="Image 4"></td>
   </tr>
 </table>
 
