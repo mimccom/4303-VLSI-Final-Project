@@ -60,6 +60,6 @@ These are the designs for each component
   </tr>
 </table>
 
-
+#### Please note, not all of the files in this repository were designed by me.
 
 
