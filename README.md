@@ -52,7 +52,7 @@ These are the designs for each component
 <table>
   <tr>
     <td><img src="/img/Mux.PNG" alt="Image 1"></td>
-    <td><img src="" alt="Mux in Xschem"></td>
+    <td><img src="/img/mux_x.PNG" alt="Mux in Xschem"></td>
   </tr>
   <tr>
     <td><img src="/img/mux_stick.png" alt="Image 3"></td>
