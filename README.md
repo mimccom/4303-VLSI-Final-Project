@@ -12,10 +12,13 @@ This is my introduction
 These are the tools used
 
 Micro Magic's Sue, for schematic layout.
+http://www.micromagic.com/SUE.html
 
 Open Circuit Design's IRSIM, for logic verification.
+http://opencircuitdesign.com/irsim/
 
 Open Circuit Design's Magic VLSI, for layout.
+http://opencircuitdesign.com/magic/
 
 ### Schematics
 
