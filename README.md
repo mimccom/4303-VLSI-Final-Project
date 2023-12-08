@@ -9,8 +9,6 @@ This is my introduction
 
 ### Tools 
 
-These are the tools used
-
 Micro Magic's Sue, for schematic layout. </br >
 > http://www.micromagic.com/SUE.html </br >
 
