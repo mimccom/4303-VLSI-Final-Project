@@ -39,12 +39,12 @@ These are the designs for each component
 #### D Flip Flop
 <table>
   <tr>
-    <td><img src="/img/dff schm.PNG" alt="Image 1"></td>
-    <td><img src="/img/FF_EN.PNG" alt="Image 2"></td>
+    <td><img src="/img/FF_EN.PNG" alt="Image 1"></td>
+    <td><img src="/img/ff_en_x.PNG" alt="Image 2"></td>
   </tr>
   <tr>
     <td><img src="/img/dff layout.PNG" alt="Image 3"></td>
-    <td><img src="/img/dff_stick.PNG" alt="Image 4"></td
+    <td><img src="/img/dff_stick.png" alt="Image 4"></td
   </tr>
 </table>
 
